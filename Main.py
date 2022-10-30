@@ -26,12 +26,12 @@ class Main(object):
         # self.off.place(x=1250, y=20)
 
 
-        # self.Vente = Button(self.leftbar,text = "CLient", width=13, height= 2,
-        #     font=('Microsoft YaHei Light', 12, 'bold'), bd= 0, command=ClientManagement(self.win)).place(x = 0, y = 250)
+        self.Vente = Button(self.leftbar,text = "CLient", width=7, height= 2,
+            font=12, bd= 0, command=ClientManagement(self.win)).place(x = 0, y = 250)
 
 
-        self.Stock1 = Button(self.leftbar, text="Stock", width=12, height=2,
-                         font=('Microsoft YaHei Light', 12, 'bold'), bd= 0, command=Stock(self.win)).place(x=0, y=350)
+        # self.Stock1 = Button(self.leftbar, text="Stock", width=7, height=2,
+        #                  font=12, bd= 0, cosssssssmmand=Stock(self.win)).place(x=0, y=350)
 
 
 

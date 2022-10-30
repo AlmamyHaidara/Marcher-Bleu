@@ -31,10 +31,10 @@ def bar():
         progress['value']=r
         w.update_idletasks()
         time.sleep(0.03)
-        r=r+1
+        r+=1
 
     w.destroy()
-    Stock.marcherBleu()
+    Stock.Stock()
 
 
 Frame(w,width=427,height=241,bg='#5598D1').place(x=0,y=0)
